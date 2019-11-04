@@ -16,33 +16,32 @@
 .bh {
 }
 .bg {
-	margin-top: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	background-color: #ED81DA;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
 	border-radius: 10px;
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-left: 30px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
 	position: absolute;
-	margin-left: auto;
+	margin-left: 1px;
 	left: 50%;
 	transform: translate(-50%,0%);
 	top: 50%;
-	width: 240px;
-	height: 460px;
 	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	border: thin groove #E1B9E9;
+	width: 290px;
+	height: auto;
 }
 .couple {
 }
 .couplehead {
 	text-align: center;
 	text-transform: capitalize;
-	font-family: euphoria-script;
 	font-style: normal;
 	font-weight: 400;
 	font-size: x-large;
@@ -88,6 +87,7 @@
 }
 .bodystyle {
 	position: relative;
+	border-width: medium;
 
 }
 .font {
