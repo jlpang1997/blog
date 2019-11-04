@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+  font-family: "myfont";
+  src: url("ttf/ITCEDSCR.TTF");
+  }
 .body {
 	margin-left: 20px;
 	margin-top: 20px;
@@ -81,4 +85,6 @@
 .bodystyle {
 	position: relative;
 
+}
+.font {
 }
