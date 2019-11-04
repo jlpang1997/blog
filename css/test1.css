@@ -16,26 +16,27 @@
 .bh {
 }
 .bg {
-	margin-top: 1px;
-	margin-right: 1px;
-	margin-bottom: 1px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 	border-radius: 10px;
 	padding-top: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	position: absolute;
-	margin-left: 1px;
-	left: 50%;
 	transform: translate(-50%,0%);
-	top: 50%;
 	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 	border: thin groove #E1B9E9;
-	width: 290px;
-	height: auto;
+	left: 50%;
+	width: 350px;
+	margin-left: 0px;
+	background-repeat: repeat-y;
+	height: 600px;
+	background-size: 100% 100%;
 }
 .couple {
 }
@@ -88,6 +89,8 @@
 .bodystyle {
 	position: relative;
 	border-width: medium;
+	background-position: 0% 0%;
+	background-size: 100% 100%;
 
 }
 .font {

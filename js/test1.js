@@ -18,4 +18,10 @@ function timer() {
             document.getElementById('h').innerHTML = h;
             document.getElementById('m').innerHTML = m;
             document.getElementById('s').innerHTML = s;
-        }
+
+}
+function change(n){ if(n>2) n=1;  // 一共5张图片，所以循环替换 
+document.getElementById("test").setAttribute("src", "myimage/"+n+".jpg"); 
+n++;
+setTimeout("change("+n+")",1000);
+}
