@@ -25,13 +25,17 @@
 	padding-right: 30px;
 	padding-bottom: 30px;
 	padding-left: 30px;
-	width: 250px;
-	height: 300px;
 	position: absolute;
 	margin-left: auto;
 	left: 50%;
-	transform: translate(-50%,20%);
+	transform: translate(-50%,0%);
 	top: 50%;
+	width: 240px;
+	height: 460px;
+	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
 }
 .couple {
 }
@@ -87,4 +91,16 @@
 
 }
 .font {
+}
+.test {
+	font-family: cookie;
+	font-style: normal;
+	font-weight: 400;
+}
+.gif {
+	width: 100px;
+	display: inline-block;
+}
+.giftable {
+	text-align: center;
 }
