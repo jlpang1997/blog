@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "myfont";
+  src: url("ttf/ITCEDSCR.TTF");
+  }
+.body {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #DD4346;
+	border-radius: 5px;
+}
+.bh {
+}
+.bg {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	position: absolute;
+	transform: translate(-50%,0%);
+	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(201,91,228,1.00) 100%);
+	border: thin groove #E1B9E9;
+	left: 50%;
+	width: 350px;
+	margin-left: 0px;
+	background-repeat: repeat-y;
+	height: 600px;
+	background-size: 100% 100%;
+}
+.couple {
+}
+.couplehead {
+	text-align: center;
+	text-transform: capitalize;
+	font-style: normal;
+	font-weight: 400;
+	font-size: x-large;
+}
+.imggrid {
+	display: inline-block;
+	width: 30%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+.table {
+	text-align: center;
+}
+.time {
+	text-align: center;
+	font-family: cookie;
+	font-style: normal;
+	font-weight: 400;
+	font-size: x-large;
+	text-decoration: none;
+}
+.timegrid {
+	display: inline-block;
+	border-style: groove;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	width: 21%;
+}
+.timetable {
+	text-align: center;
+}
+.imgstyle {
+	border-radius: 20%;
+}
+.num {
+	font-size: xx-large;
+	border-bottom-style: dashed;
+	color: #CE0003;
+	border-bottom-color: #000000;
+
+}
+.bodystyle {
+	position: relative;
+	border-width: medium;
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+
+}
+.font {
+}
+.test {
+	font-family: cookie;
+	font-style: normal;
+	font-weight: 400;
+}
+.gif {
+	width: 100px;
+	display: inline-block;
+}
+.giftable {
+	text-align: center;
+}
+.sec {
+}
